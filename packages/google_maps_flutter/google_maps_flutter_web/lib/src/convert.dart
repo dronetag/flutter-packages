@@ -545,6 +545,7 @@ gmaps.PolygonOptions _polygonOptionsFromPolygon(
     ..fillOpacity = _getCssOpacity(polygon.fillColor)
     ..visible = polygon.visible
     ..zIndex = polygon.zIndex
+    ..clickable = false
     ..geodesic = polygon.geodesic;
 }
 
